@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram con bootstrap</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="icon" href="img/icon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container mt-5 d-flex justify-content-center">
+        <div class="d-none d-sm-block">
+            <img src="img/foto-celular.png">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade posicion-carousel" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/Carousel-1.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carousel-2.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carousel-3.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carousel-4.jpg" class="d-block w-100">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/Carousel-5.jpg" class="d-block w-100">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+        <div class="d-flex flex-column align-items-center mt-4">
+            <section class="form"> 
+                <div class="my-3 d-flex justify-content-center">
+                    <img src="img/instagram-logo.png" width="175px">
+                </div>
+                <div class="d-flex justify-content-center w-100 flex-column rounded">
+                    <form class="d-flex flex-column align-items-center">
+                        <input type="text" placeholder="Teléfono, usuario o correo electrónico"
+                        class="inputs border w-75 m-2 p-2">
+                        <input type="password" placeholder="Contraseña" 
+                        class="inputs border w-75 p-2">
+                        <button type="button" class="btn btn-primary text-white button-login mt-3 w-75">
+                            Iniciar sesión
+                        </button>
+                    </form>
+                    <div class="d-flex w-100 align-items-center justify-content-center">
+                        <div class="w-25 border border-top"></div>
+                        <p class="justify-content-center">o</p>
+                        <div class="w-25 border-top"></div>
+                    </div>
+                    <div class="d-flex flex-column w-100 align-items-center mt-4">
+                    <button class="w-75 border-0 link-login-fb">
+                        <i class="fab fa-facebook-square me-1 fs-5"></i>    
+                        Iniciar sesión con Facebook
+                    </button>
+                    <a href="https://www.instagram.com/accounts/password/reset/" class="text-decoration-none link-f-password my-3" target="_blank">
+                        ¿Olvidaste tu contraseña?
+                    </a>
+                </div>
+                </div>
+            </section>
+            <section>
+                <div class="d-flex button-login form registration-area mt-3 justify-content-center 
+                align-items-center py-3">
+                    <div class="parrafo-registro">¿No tienes una cuenta?</div>
+                    <a href="https://www.instagram.com/accounts/emailsignup/" class="text-decoration-none fw-bold ps-1" target="_blank">
+                    Regístrate
+                    </a>
+                </div>
+            </section>
+            <section>
+                <div class="d-flex flex-column button-login align-items-center">
+                    <div class="my-4">Descargar app</div>
+                    <div class="d-flex">
+                        <a href="https://apps.apple.com/app/instagram/id389801252?vt=lo" target="_blank">
+                            <img src="img/logo-app-store.png" class="store-logos mx-1">
+                        </a>
+                        <a href="https://play.google.com/store/apps/details?id=com.instagram.android&hl=es_CO&gl=US" target="_blank">
+                            <img src="img/logo-google-play-store.png" class="store-logos mx-1">
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <footer class="">
+        <div class="container pt-5">
+            <div class="d-flex justify-content-center align-items-center fila-links">
+                <a href="https://about.instagram.com" target="_blank">Informacion</a>
+                <a href="https://about.instagram.com/blog" target="_blank">Blog</a>
+                <a href="https://about.instagram.com/about-us/careers" target="_blank">Empleo</a>
+                <a href="https://help.instagram.com" target="_blank">Ayuda</a>
+                <a href="https://developers.facebook.com/docs/instagram" target="_blank">API</a>
+                <a href="https://help.instagram.com/519522125107875" target="_blank">Privacidad</a>
+                <a href="https://help.instagram.com/581066165581870" target="_blank">Condiciones</a>
+                <a href="https://www.instagram.com/directory/profiles/" target="_blank">Cuentas destacadas</a>
+                <a href="https://www.instagram.com/directory/hashtags/" target="_blank">Hashtags</a>
+                <a href="https://www.instagram.com/explore/locations/" target="_blank">Ubicaciones</a>
+                <a href="https://www.instagram.com/web/lite/" target="_blank">Instagram Lite</a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center fila-links mt-1">
+                <a href="https://www.instagram.com/topics/beauty/" target="_blank">Belleza</a>
+                <a href="https://www.instagram.com/topics/dance-and-performance/" target="_blank">Danza</a>
+                <a href="https://www.instagram.com/topics/fitness/" target="_blank">Fitness</a>
+                <a href="https://www.instagram.com/topics/food-and-drink/" target="_blank">Comida y bebidas</a>
+                <a href="https://www.instagram.com/topics/home-and-garden/" target="_blank">Casa y jardin</a>
+                <a href="https://www.instagram.com/topics/music/" target="_blank">Mùsica</a>
+                <a href="https://www.instagram.com/topics/visual-arts/" target="_blank">Artes visuales</a>
+            </div>
+            <div class="d-flex justify-content-center align-items-center mt-2 mb-5">
+                <select class="border-0 select-idiomas">
+                    <option value="af">Afrikaans</option>
+                    <option value="cs">Čeština</option>
+                    <option value="da">Dansk</option>
+                    <option value="de">Deutsch</option>
+                    <option value="el">Ελληνικά</option>
+                    <option value="en">English</option>
+                    <option value="en-gb">English (UK)</option>
+                    <option value="es">Español (España)</option>
+                    <option value="es-la">Español</option>
+                    <option value="fi">Suomi</option>
+                    <option value="fr">Français</option>
+                    <option value="id">Bahasa Indonesia</option>
+                    <option value="it">Italiano</option>
+                    <option value="ja">日本語</option>
+                    <option value="ko">한국어</option>
+                    <option value="ms">Bahasa Melayu</option>
+                    <option value="nb">Norsk</option>
+                    <option value="nl">Nederlands</option>
+                    <option value="pl">Polski</option>
+                    <option value="pt-br">Português (Brasil)</option>
+                    <option value="pt">Português (Portugal)</option>
+                    <option value="ru">Русский</option>
+                    <option value="sv">Svenska</option>
+                    <option value="th">ภาษาไทย</option>
+                    <option value="tl">Filipino</option>
+                    <option value="tr">Türkçe</option>
+                    <option value="zh-cn">中文(简体)</option>
+                    <option value="zh-tw">中文(台灣)</option>
+                    <option value="bn">বাংলা</option>
+                    <option value="gu">ગુજરાતી</option>
+                    <option value="hi">हिन्दी</option>
+                    <option value="hr">Hrvatski</option>
+                    <option value="hu">Magyar</option>
+                    <option value="kn">ಕನ್ನಡ</option>
+                    <option value="ml">മലയാളം</option>
+                    <option value="mr">मराठी</option>
+                    <option value="ne">नेपाली</option>
+                    <option value="pa">ਪੰਜਾਬੀ</option>
+                    <option value="si">සිංහල</option>
+                    <option value="sk">Slovenčina</option>
+                    <option value="ta">தமிழ்</option>
+                    <option value="te">తెలుగు</option>
+                    <option value="vi">Tiếng Việt</option>
+                    <option value="zh-hk">中文(香港)</option>
+                    <option value="bg">Български</option>
+                    <option value="fr-ca">Français (Canada)</option>
+                    <option value="ro">Română</option>
+                    <option value="sr">Српски</option>
+                    <option value="uk">Українська</option>
+                </select>
+                <div class="select-idiomas">© 2021 Instagram from Facebook</div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

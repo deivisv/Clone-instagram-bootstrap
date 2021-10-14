@@ -1,0 +1,70 @@
+:root{
+    --color-de-fondo: #fafafa;
+    --color-de-fondo-2: #fff;
+    --color-de-letras: #8e8e8e;
+    --tamaño-de-letras: 12px;
+    --tamaño-de-letras-2: 14px;
+}
+
+body{
+    background-color: var(--color-de-fondo) !important;
+}
+
+.posicion-carousel{
+    position: absolute !important;
+    max-width: 242px !important;
+    transform: translate(150px, -521px) !important;
+}
+
+.form{
+    background-color: var(--color-de-fondo-2) !important;
+    border: 1px solid #dbdbdb !important;
+    border-radius: 1px !important;
+    width: 350px !important;
+}
+
+.inputs{
+    background-color: var(--color-de-fondo) !important;
+    font-size: var(--tamaño-de-letras) !important;
+    color: var(--color-de-letras) !important;   
+}
+
+.inputs:focus{
+    outline:#a8a8a8 solid 1px !important;
+}
+
+.button-login{
+    font-size: var(--tamaño-de-letras-2) !important;
+}
+
+.link-login-fb{
+    color: #385185 !important;
+    font-size: var(--tamaño-de-letras-2) !important;
+    background-color: var(--color-de-fondo-2) !important;
+    font-weight: 600 !important;
+}
+
+.link-f-password{
+    color: #00376b !important;
+    font-size: var(--tamaño-de-letras) !important;
+}
+
+.parrafo-registro{
+    color: #262626 !important;
+    font-size: var(--tamaño-de-letras-2) !important;
+}
+
+.store-logos{
+    height: 40px !important;
+}
+
+.fila-links a, .select-idiomas{
+    text-decoration: none !important;
+    padding: 0 0.6%;
+    color: var(--color-de-letras) !important;
+    font-size: var(--tamaño-de-letras) !important;
+}
+
+.select-idiomas{
+    background-color: var(--color-de-fondo) !important;
+}
